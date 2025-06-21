@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Mood Diary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>😊 Mood Diary</h1>
+
+  <div class="input-box">
+    <div id="emoji-box">
+      <h2><span>Pick your mood:</span>
+      <button data-mood="😄">😄</button>
+      <button data-mood="😐">😐</button>
+      <button data-mood="😢">😢</button>
+      <button data-mood="😠">😠</button>
+      <button data-mood="😴">😴</button>
+    </div>
+
+    <textarea id="note" placeholder="Write a note..."></textarea><br>
+    <button id="saveBtn">Save Mood</button>
+  </div>
+
+  <h2 id="monthYear"></h2>
+  <h2>
+  <button id="prevMonth" aria-label="Previous Month"><<<</button>
+  <span id="monthYear"></span>
+  <button id="nextMonth" aria-label="Next Month">>>></button>
+</h2>
+
+  <div class="calendar" id="calendar"></div>
+
+  <div id="entryDisplay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

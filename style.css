@@ -1,0 +1,129 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  color: #212121;
+  text-align: center;
+  background-color: #C83F12;
+}
+.mood{
+    padding: 5px;
+    border-radius: 10px;;
+}
+.input-box {
+  margin-bottom: 20px;
+}
+
+#emoji-box button {
+    transition: all 0.3s ease;
+    display: inline-block;
+    border-radius: 30px;
+  font-size: 24px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+#emoji-box button:hover {
+  background-color: #212121;
+  color: #fff;
+  transition: all 0.3s ease;
+  scale: 1.05;
+}
+textarea {
+    transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    outline: none;
+    border-radius: 20px;
+  border: 3px solid #212121;
+  background-color: #C83F12;
+  color: #212121;
+  font-size: 16px;
+  width: 90%;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+textarea::placeholder{
+  color: #212121;
+  font-style: italic;
+}
+textarea:hover {
+  border-color: #212121;
+  transition: all 0.3s ease;
+  scale: 1.05;
+}
+button#saveBtn {
+    transition: all 0.3s ease;
+  outline: none;
+  border: 3px solid #212121;
+  margin-top: 10px;
+  background-color: #C83F12;
+  border-radius: 22px;
+  padding: 8px 20px;
+}
+button#saveBtn:hover {
+  background-color: #212121;
+  color: #fff;
+  transition: all 0.3s ease;
+  scale: 1.05;
+}
+.calendar {
+    
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.calendar div {
+    transition: all 0.3s ease;
+    outline: none;
+    border: #212121 solid 3px;
+    border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  cursor: pointer;
+  min-height: 50px;
+}
+.calendar div:hover {
+  background-color: #c5bebe;
+  transition: all 0.3s ease;
+  scale: 1.05;
+}
+#prevMonth, #nextMonth {
+    transition: all 0.3s ease;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 3px solid #212121;
+  color: #000000;
+  background-color: #C83F12;
+}
+#prevMonth:hover, #nextMonth:hover {
+  background-color: #212121;
+  color: #fff;
+  transition: all 0.3s ease;
+  scale: 1.05;
+}
+#entryDisplay {
+    transition: all 0.3s ease;
+    border-radius: 15px;
+  margin-top: 20px;
+  padding: 10px;
+  background: #C83F12;
+  display: none;
+  border: 3px solid #212121;
+}
+#entryDisplay h3 {
+  margin: 0;
+  color: #212121;
+}
+#entryDisplay:hover {
+    background-color: #212121;
+    color: #fff;
+    transition: all 0.3s ease;
+    scale: 1.03;
+    border-radius: 20px;
+}
